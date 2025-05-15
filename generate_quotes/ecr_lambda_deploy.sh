@@ -5,7 +5,7 @@ ECR_REPO="quotegenerator"
 IMAGE_TAG="latest"
 AWS_REGION="eu-west-2"  # e.g., us-east-1
 FUNCTION_PAYLOAD='{}'
-AWS_ACCOUNT_ID="067795008911"
+AWS_ACCOUNT_ID=""
 
 echo "🚀 Step 1: Rebuild Docker image"
 docker build -t generate_quote_lambda .
